@@ -1,0 +1,422 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      /* .log{
+        height: 10px;
+        width: 100 ;
+        background-color: #0e0404;
+      } */
+    </style>
+</head>
+<!-- <body  class="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl"> -->
+  
+    
+    <body id="mode
+    " class="font-sans mx-auto max-w-prose">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXN98PM"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+      
+        <div class="pt-12 pb-4">
+          
+        <nav class="flex flex-wrap items-center justify-center px-2 mb-6">
+          <div class="container px-4 mx-auto flex flex-wrap items-center justify-center">
+              <div class="w-full relative flex justify-center">
+                  <button type="button" onclick="toggleNavbar('navbar')" class="rounded-md inline-flex items-center justify-center text-gray-500 md:hidden" aria-expanded="false">
+                      <span class="sr-only">Open menu</span>
+                      <!-- Heroicon name: outline/menu -->
+                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                      </svg>
+                  </button>
+              </div>
+      
+              <div class="flex hidden md:block" id="navbar">
+                  <div class="flex flex-col md:flex-row mr-auto w-full">
+                      
+      
+                      <!-- dynamic menu based on navigation info in _config.yml -->
+                      
+                           <!-- don't show current page in menu -->
+                          <a class="text-sm text-gray-500 hover:text-gray-900 px-3 py-2 lg:py-1 mx-auto uppercase" href="/about">
+                              About
+                          </a>
+                          
+                      
+                           <!-- don't show current page in menu -->
+                          <a class="text-sm text-gray-500 hover:text-gray-900 px-3 py-2 lg:py-1 mx-auto uppercase" href="/blog">
+                              Blog
+                          </a>
+                          
+                      
+                  </div>
+              </div>
+          </div>
+      </nav>
+      
+      
+      <div class="mx-auto text-center prose prose-indigo">
+        <div>
+          <img class="object-cover mx-auto h-36 w-36 rounded-full" src="logo.jpg" alt="author profile image">
+          <h1 >fonce</h1>
+        </div>
+        <br>
+        <p class="text-gray-500 pb-4">Youtuber / Developer / designer</p>
+        
+      </div>
+      </div>
+      
+      <section>
+        <div class="flex flex-wrap text-center">
+          <div class="w-full pt-4">
+            <div>
+              
+             
+
+
+              <div class="flex flex-wrap items-center justify-center space-x-2">
+             
+              
+                <!-- Discord -->
+                <button
+                  type="button"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                  class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                  style="background-color: #7289da">
+                  <svg
+                    class="h-4 w-4"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    viewbox="0 0 24 24">
+                    <path
+                      d="M19.54 0c1.356 0 2.46 1.104 2.46 2.472v21.528l-2.58-2.28-1.452-1.344-1.536-1.428.636 2.22h-13.608c-1.356 0-2.46-1.104-2.46-2.472v-16.224c0-1.368 1.104-2.472 2.46-2.472h16.08zm-4.632 15.672c2.652-.084 3.672-1.824 3.672-1.824 0-3.864-1.728-6.996-1.728-6.996-1.728-1.296-3.372-1.26-3.372-1.26l-.168.192c2.04.624 2.988 1.524 2.988 1.524-1.248-.684-2.472-1.02-3.612-1.152-.864-.096-1.692-.072-2.424.024l-.204.024c-.42.036-1.44.192-2.724.756-.444.204-.708.348-.708.348s.996-.948 3.156-1.572l-.12-.144s-1.644-.036-3.372 1.26c0 0-1.728 3.132-1.728 6.996 0 0 1.008 1.74 3.66 1.824 0 0 .444-.54.804-.996-1.524-.456-2.1-1.416-2.1-1.416l.336.204.048.036.047.027.014.006.047.027c.3.168.6.3.876.408.492.192 1.08.384 1.764.516.9.168 1.956.228 3.108.012.564-.096 1.14-.264 1.74-.516.42-.156.888-.384 1.38-.708 0 0-.6.984-2.172 1.428.36.456.792.972.792.972zm-5.58-5.604c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332.012-.732-.54-1.332-1.224-1.332zm4.38 0c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332 0-.732-.54-1.332-1.224-1.332z" />
+                  </svg>
+                </button>
+              
+                <!-- Github -->
+                <a href="https://github.com/Fonce760" target="_blank" >
+                <button
+                  type="button"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                  class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                  style="background-color: #333">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="currentColor"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                  </svg>
+                </button></a>
+              
+             
+                  </svg>
+                </button>
+              
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/fonce.09/" target="_blank">
+                <button
+                  type="button"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                  class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                  style="background-color: #c13584">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="currentColor"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                  </svg>
+                </button></a>
+              
+              
+              
+                <!-- Linkedin -->
+                <button
+                  type="button"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                  class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                  style="background-color: #0077b5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="currentColor"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+                  </svg>
+                </button>
+              
+               
+                
+              
+                <!-- Telegram -->
+                <button
+                  type="button"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                  class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                  style="background-color: #0088cc">
+                  <svg
+                    class="h-4 w-4"
+                    fill="currentColor"
+                    viewbox="0 0 24 24"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xml:space="preserve"
+                    xmlns:serif="http://www.serif.com/"
+                    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+                    <path
+                      id="telegram-1"
+                      d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z" />
+                  </svg>
+                </button>
+              
+                <!-- Youtube -->
+                <a href="#" target="_blank"></a>
+                <button
+                  type="button"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                  class="h-10 mb- inline-block rounded px-9 w-3 py-24.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                  style="background-color: #ff0000">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="currentColor"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                  </svg>
+                </button>
+              
+               
+                <!-- Snapchat -->
+                <button
+                  type="button"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                  class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                  style="background-color: #f8cc1b">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="currentColor"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M5.829 4.533c-.6 1.344-.363 3.752-.267 5.436-.648.359-1.48-.271-1.951-.271-.49 0-1.075.322-1.167.802-.066.346.089.85 1.201 1.289.43.17 1.453.37 1.69.928.333.784-1.71 4.403-4.918 4.931-.251.041-.43.265-.416.519.056.975 2.242 1.357 3.211 1.507.099.134.179.7.306 1.131.057.193.204.424.582.424.493 0 1.312-.38 2.738-.144 1.398.233 2.712 2.215 5.235 2.215 2.345 0 3.744-1.991 5.09-2.215.779-.129 1.448-.088 2.196.058.515.101.977.157 1.124-.349.129-.437.208-.992.305-1.123.96-.149 3.156-.53 3.211-1.505.014-.254-.165-.477-.416-.519-3.154-.52-5.259-4.128-4.918-4.931.236-.557 1.252-.755 1.69-.928.814-.321 1.222-.716 1.213-1.173-.011-.585-.715-.934-1.233-.934-.527 0-1.284.624-1.897.286.096-1.698.332-4.095-.267-5.438-1.135-2.543-3.66-3.829-6.184-3.829-2.508 0-5.014 1.268-6.158 3.833z" />
+                  </svg>
+                </button>
+              
+               
+      
+              
+      
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="relative px-4 pt-4 pb-4">
+        
+        <!-- divider -->
+        <div class="relative my-8">
+          <div class="absolute inset-0 flex items-center" aria-hidden="true">
+            <div class="w-full border-t border-gray-350"></div>
+          </div>
+          <div class="relative flex justify-center ">
+            <span class="bg-white px-2 text-gray-200">
+              <i class="text-xs far fa-square"></i>
+            </span>
+          </div>
+        </div>
+          
+          
+        <div class="bg-red">
+        <button class=" border-cyan-400 ">Save Changes</button></div>
+         <div>
+        <button onclick =Mew() class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Default</button>
+      
+        <script>
+          function Mew() {
+            
+         
+let value = document.getElementById("mode").className;
+document.getElementsByClassName("bg-white dark:bg-slate-800, rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl").innerHTML = value;}
+</script> 
+      </script></div>  
+          
+          <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex items-center md:flex-row flex-col">
+    <div class="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
+      <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
+      <h1 class="md:text-3xl text-2xl font-medium title-font text-gray-900">Master Cleanse Reliac Heirloom</h1>
+    </div>
+    <div class="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
+      <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 512 512">
+          <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
+        </svg>
+        <span class="ml-4 flex items-start flex-col leading-none">
+          <span class="text-xs text-gray-600 mb-1">GET IT ON</span>
+          <span class="title-font font-medium">Google Play</span>
+        </span>
+      </button>
+      <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 305 305">
+          <path d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z"></path>
+          <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"></path>
+        </svg>
+        <span class="ml-4 flex items-start flex-col leading-none">
+          <span class="text-xs text-gray-600 mb-1">Download on the</span>
+          <span class="title-font font-medium ">App Store</span>
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+      
+       
+            
+            
+            
+          </div>
+        </div>
+        
+      </footer>
+        
+      
+      
+      <script>
+        /* Funtion for getting the current year in the footer */
+        (function () {
+          if (document.getElementById("get-current-year")) {
+            document.getElementById(
+              "get-current-year"
+            ).innerHTML = new Date().getFullYear();
+          }
+        })();
+      
+        /* Function for opning navbar on mobile */
+        function toggleNavbar(collapseID) {
+            document.getElementById(collapseID).classList.toggle("hidden");
+            document.getElementById(collapseID).classList.toggle("block");
+          }
+          /* Function for dropdowns */
+          function openDropdown(event, dropdownID) {
+            let element = event.target;
+            while (element.nodeName !== "A") {
+              element = element.parentNode;
+            }
+            document.getElementById(dropdownID).classList.toggle("hidden");
+            document.getElementById(dropdownID).classList.toggle("block");
+          }
+      
+        /* Function for show/hide table of content */
+        function toggleTOC() {
+          var toc = document.getElementById('toc');
+              if (toc.style.display == "block"){ // if toc hidden, display it 
+                  toc.style.display = "none";
+              }
+              else{ // if toc displayed, hidden it
+                  toc.style.display = "block";
+              }
+          }
+      </script>
+
+ <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+  <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+  <nav class="list-none mb-10">
+ 
+</div>
+</div>
+</div>
+<div class="bg-gray-100">
+<div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col rounded-full">
+ 
+<a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+    
+
+
+</a>
+<!-- <p class="text-sm text-gray-600 sm:ml-6 sm:mt-0 mt-4">© 2023 
+  <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank"></a>
+</p> -->
+
+ <!-- footer msg -->
+ <div class="flex flex-wrap items-center justify-center ">
+  <div class="text-sm text-gray-600">
+  
+    © <span id="get-current-year">2023</span>  
+
+    <!-- <span class="relative flex h-3 w-3">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+    </span> -->
+
+    works in outer space.
+
+Dark mode
+
+Writes Upside-Down
+The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
+
+<div  class="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+  <div> -->
+    <!-- <span class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+      <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><!-- ... --></svg>
+    </span>
+  </div>
+  <!-- <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Writes Upside-Down</h3>
+  <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
+    The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
+  </p> -->
+</div> 
+      
+      
+      
+      
+      
+
+     
+        <div>
+      <!-- <svg class =log xmlns:mydata="http://www.w3.org/2000/svg" mydata:contrastcolor="151f42" mydata:template="Contrast" mydata:presentation="2.5" mydata:layouttype="undefined" mydata:specialfontid="undefined" mydata:id1="724" mydata:id2="032" mydata:companyname="Fonce" mydata:companytagline="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height: 1857px;" viewBox="0 0 550 470"><defs><linearGradient x1="114.76507" y1="235" x2="435.23493" y2="235" gradientUnits="userSpaceOnUse" id="color-15274929789"><stop offset="0" stop-color="#4568dc"></stop><stop offset="1" stop-color="#b06ab3"></stop></linearGradient></defs><g fill="url(#color-15274929789)" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g data-paper-data="{&quot;isGlobalGroup&quot;:true,&quot;bounds&quot;:{&quot;x&quot;:114.76507112770523,&quot;y&quot;:115,&quot;width&quot;:320.4698577445895,&quot;height&quot;:240}}"><g data-paper-data="{&quot;isPrimaryText&quot;:true}" id="element-id-91990"><path d="M148.04968,319.74644h-20.62708c-1.59391,0 -2.71902,1.21887 -2.71902,2.71902c0,1.59391 1.12511,2.71902 2.71902,2.71902h20.62708c1.50015,0 2.81278,-1.12511 2.81278,-2.71902c0,-1.50015 -1.31263,-2.71902 -2.81278,-2.71902zM155.45668,286.64935h-37.87882c-1.59391,0 -2.81278,1.21887 -2.81278,2.71902v62.9126c0,1.50015 1.21887,2.71902 2.81278,2.71902c1.40639,0 2.71902,-1.21887 2.71902,-2.71902v-60.19358h35.1598c1.50015,0 2.81278,-1.12511 2.81278,-2.71902c0,-1.50015 -1.31263,-2.71902 -2.81278,-2.71902z" data-paper-data="{&quot;glyphName&quot;:&quot;F&quot;,&quot;glyphIndex&quot;:0,&quot;firstGlyphOfWord&quot;:true,&quot;word&quot;:1}" id="element-id-43929"></path><path d="M170.73947,322.18419l29.15919,29.25295c2.34399,2.25023 5.34429,3.56286 8.62587,3.56286c3.37534,0 6.37564,-1.31263 8.71963,-3.56286l29.25295,-29.25295c1.03135,-1.12511 1.03135,-2.71902 0,-3.84414l-29.25295,-29.25295c-2.34399,-2.25023 -5.34429,-3.56286 -8.71963,-3.56286c-3.28158,0 -6.28188,1.31263 -8.62587,3.56286l-29.15919,29.25295c-0.56256,0.56256 -0.84384,1.31263 -0.84384,1.96895c0,0.65632 0.28128,1.31263 0.84384,1.87519zM176.4588,320.309l27.284,-27.284c1.21887,-1.31263 3.09406,-1.96895 4.78173,-1.96895c1.87519,0 3.56286,0.65632 4.87549,1.96895l27.19025,27.284l-27.19025,27.19025c-1.31263,1.31263 -3.0003,2.06271 -4.87549,2.06271c-1.68767,0 -3.56286,-0.75008 -4.78173,-2.06271z" data-paper-data="{&quot;glyphName&quot;:&quot;O&quot;,&quot;glyphIndex&quot;:1,&quot;word&quot;:1}" id="element-id-59045"></path><path d="M297.12723,321.15283l-33.09709,-33.65965c-0.75008,-0.84384 -1.87519,-0.93759 -3.0003,-0.56256c-0.93759,0.4688 -1.59391,1.31263 -1.59391,2.43775v62.9126c0,1.50015 1.12511,2.71902 2.71902,2.71902c1.50015,0 2.71902,-1.21887 2.71902,-2.71902v-56.25568l28.31536,29.06543c1.12511,0.93759 2.81278,1.03135 3.84414,-0.09376c1.03135,-0.93759 0.93759,-2.81278 0.09376,-3.84414zM303.6904,286.64935c-1.59391,0 -2.81278,1.21887 -2.81278,2.71902v62.9126c0,1.50015 1.21887,2.71902 2.81278,2.71902c1.40639,0 2.71902,-1.21887 2.71902,-2.71902v-62.9126c0,-1.50015 -1.31263,-2.71902 -2.71902,-2.71902z" data-paper-data="{&quot;glyphName&quot;:&quot;N&quot;,&quot;glyphIndex&quot;:2,&quot;word&quot;:1}" id="element-id-97556"></path><path d="M318.87943,322.18419l29.15919,29.25295c2.34399,2.25023 5.34429,3.56286 8.62587,3.56286c3.37534,0 6.37564,-1.31263 8.71963,-3.56286l13.68888,-13.68888c1.12511,-1.12511 1.12511,-2.90654 0,-3.9379v0.09376c-1.03135,-1.03135 -2.71902,-0.93759 -3.84414,0l-13.68888,13.59512c-1.31263,1.31263 -3.0003,2.06271 -4.87549,2.06271c-1.68767,0 -3.56286,-0.75008 -4.87549,-2.06271l-27.19025,-27.19025l27.19025,-27.284c1.31263,-1.31263 3.18782,-1.96895 4.87549,-1.96895c1.87519,0 3.56286,0.65632 4.87549,1.96895l13.68888,13.78264c1.12511,0.93759 2.71902,0.93759 3.84414,0c1.21887,-1.12511 1.12511,-2.90654 0,-4.03166l-13.68888,-13.68888c-2.34399,-2.25023 -5.34429,-3.56286 -8.71963,-3.56286c-3.28158,0 -6.28188,1.31263 -8.62587,3.56286l-29.15919,29.25295c-0.56256,0.56256 -0.84384,1.31263 -0.84384,1.96895c0,0.65632 0.28128,1.31263 0.84384,1.87519z" data-paper-data="{&quot;glyphName&quot;:&quot;C&quot;,&quot;glyphIndex&quot;:3,&quot;word&quot;:1}" id="element-id-83562"></path><path d="M392.01181,353.49985l0.09376,0.18752c0.4688,0.75008 1.40639,1.31263 2.43775,1.31263h37.87882c1.50015,0 2.81278,-1.21887 2.81278,-2.71902c0,-1.50015 -1.31263,-2.71902 -2.81278,-2.71902h-33.00333c5.06301,-8.43835 9.65723,-15.65783 14.62648,-24.00242l6.56316,6.4694c0.4688,0.56256 1.12511,0.84384 1.87519,0.84384c0.84384,0 1.59391,-0.37504 1.96895,-0.93759l9.00091,-8.81339c0.56256,-0.56256 0.84384,-1.21887 0.84384,-2.06271c0,-0.56256 -0.28128,-1.31263 -0.84384,-1.87519l-9.09467,-9.00091h0.09376c-0.93759,-0.93759 -2.81278,-0.84384 -3.84414,0c-2.25023,2.15647 -4.03166,4.03166 -6.28188,6.28188c-4.96925,-8.34459 -9.84474,-16.03287 -14.90776,-24.2837h33.00333c1.50015,0 2.81278,-1.12511 2.81278,-2.71902c0,-1.50015 -1.31263,-2.71902 -2.81278,-2.71902h-37.87882c-0.93759,0 -1.87519,0.56256 -2.43775,1.31263c-0.4688,1.03135 -0.4688,2.06271 0,2.90654l18.37686,29.90927l-18.37686,30.00303l0.09376,-0.09376c-0.56256,0.93759 -0.56256,2.06271 -0.18752,2.71902zM417.32687,321.05907l5.15677,-5.06301l5.25053,5.06301l-5.25053,5.25053z" data-paper-data="{&quot;glyphName&quot;:&quot;E&quot;,&quot;glyphIndex&quot;:4,&quot;lastGlyphOfWord&quot;:true,&quot;word&quot;:1}" id="element-id-87441"></path></g><g data-paper-data="{&quot;fillRule&quot;:&quot;nonzero&quot;,&quot;fillRuleOriginal&quot;:&quot;nonzero&quot;,&quot;isIcon&quot;:true,&quot;iconStyle&quot;:&quot;standalone&quot;,&quot;selectedEffects&quot;:{&quot;container&quot;:&quot;&quot;,&quot;transformation&quot;:&quot;&quot;,&quot;pattern&quot;:&quot;&quot;},&quot;bounds&quot;:{&quot;x&quot;:207.60786890818684,&quot;y&quot;:115,&quot;width&quot;:134.7842621836263,&quot;height&quot;:139.21988722694377},&quot;iconType&quot;:&quot;initial&quot;,&quot;initialText&quot;:&quot;FFF&quot;,&quot;rawInitialId&quot;:425,&quot;monogramSpecial&quot;:&quot;emblem&quot;,&quot;suitableAsStandaloneIcon&quot;:true}" id="element-id-87791"><path d="M251.84695,241.09513c-23.11453,-11.32765 -35.81987,-32.75834 -35.20756,-61.84285h18.52224v-8.72536h-17.14455c2.75538,-13.47072 12.70534,-28.4722 25.10452,-36.73833v20.97146h8.87843v-35.81987c-26.63529,11.78688 -44.39215,35.81987 -44.39215,65.97591c0,28.77836 16.22609,53.7298 44.23907,65.36361zM267.82947,179.32627h17.77395v-8.6591h-17.77395v-46.33379c5.46891,-0.91149 13.52035,-1.0634 18.53352,-0.15192v30.83855h8.6591v-38.28234c-11.39355,-2.43063 -25.9773,-2.43063 -35.85172,0.75957v134.89968c2.88637,0.75957 5.77273,1.36723 8.6591,1.82297zM311.09159,179.23976l18.71895,-0.15343v-8.74574h-18.71895v-36.9776c9.66634,6.7511 17.03117,15.80371 21.94106,26.69752h9.35947c-7.6717,-19.79299 -20.25329,-32.83488 -40.19972,-41.12031l0.15343,131.33952c2.14808,-0.92061 5.06332,-2.45494 8.74574,-4.75645z" data-paper-data="{&quot;isPathIcon&quot;:true}" id="element-id-78486"></path></g></g></g><g class="watermark-group" style="opacity:0.040000010281801224"><path class="watermark-path" d="M129.52,370.3a11.88,11.88,0,0,1,2.58,5.58,12,12,0,0,1,.11,3,11.81,11.81,0,0,1-.64,2.93,12.34,12.34,0,0,1-1.41,2.72,11.65,11.65,0,0,1-2.13,2.32,12,12,0,0,1-2.64,1.69,13,13,0,0,1-2.91.9,12.47,12.47,0,0,1-3,.12,12.17,12.17,0,0,1-2.93-.64,11.8,11.8,0,0,1-2.72-1.38,12.19,12.19,0,0,1-4-4.79,11.85,11.85,0,0,1-.89-2.92,12.14,12.14,0,0,1-.13-3,11.54,11.54,0,0,1,.64-2.92,11.67,11.67,0,0,1,3.5-5,11.44,11.44,0,0,1,2.67-1.69,11.64,11.64,0,0,1,2.92-.91,10.71,10.71,0,0,1,3-.12,11.68,11.68,0,0,1,5.66,2,11.7,11.7,0,0,1,2.34,2.12m-1.4,8.76a13,13,0,0,1-1.22,2.32,9.68,9.68,0,0,1-1.81,2,7.44,7.44,0,0,1-2.38,1.37,6.17,6.17,0,0,1-5.11-.46,8.73,8.73,0,0,1-3.85-4.58,6.69,6.69,0,0,1-.34-2.66,6.09,6.09,0,0,1,.77-2.47,7.15,7.15,0,0,1,1.75-2.11,9.58,9.58,0,0,1,1.09-.81,8.23,8.23,0,0,1,1.12-.63,8.14,8.14,0,0,1,1.19-.46,12.71,12.71,0,0,1,1.32-.37l2,2.38a12.83,12.83,0,0,0-1.56.17,7.86,7.86,0,0,0-1.23.32,4.5,4.5,0,0,0-1,.49,6.41,6.41,0,0,0-.93.67,4.49,4.49,0,0,0-1.15,1.39,3.87,3.87,0,0,0-.45,1.58,4.12,4.12,0,0,0,.26,1.63,6.11,6.11,0,0,0,2.36,2.82,4.43,4.43,0,0,0,1.57.53,3.91,3.91,0,0,0,1.62-.17,4.71,4.71,0,0,0,1.57-.89,10.5,10.5,0,0,0,.83-.79,5.71,5.71,0,0,0,.65-.93,10.13,10.13,0,0,0,.54-1.14,12.24,12.24,0,0,0,.44-1.49l2,2.33m-14.46,4.55a8.86,8.86,0,0,0,2.78,2.22,9,9,0,0,0,3.29.94,9.15,9.15,0,0,0,3.39-.37,8.68,8.68,0,0,0,3.11-1.69,8.8,8.8,0,0,0,2.22-2.78,9.15,9.15,0,0,0,1-3.29,8.95,8.95,0,0,0-4.83-8.76,9,9,0,0,0-6.73-.57,9,9,0,0,0-5.33,4.47,8.94,8.94,0,0,0-.57,6.71,8.76,8.76,0,0,0,1.7,3.12"></path><path class="watermark-path" d="M147,349c-.48.12-1.09.31-1.82.57a24.37,24.37,0,0,0-2.4,1A28.35,28.35,0,0,0,140,352a20.72,20.72,0,0,0-2.71,1.94c-.7.59-1.28,1.11-1.74,1.57a15.07,15.07,0,0,0-1.1,1.22,4.09,4.09,0,0,0-.59.92,2.32,2.32,0,0,0-.22.64,1.16,1.16,0,0,0,0,.47,1.83,1.83,0,0,0,.18.29,1.15,1.15,0,0,0,1,.37,5.54,5.54,0,0,0,1.51-.38q.87-.35,1.95-.9l2.26-1.18q1.2-.65,2.49-1.29c.87-.44,1.73-.83,2.59-1.17a18.94,18.94,0,0,1,2.6-.81,9.27,9.27,0,0,1,2.46-.29,6.25,6.25,0,0,1,2.24.49,5.12,5.12,0,0,1,1.89,1.47,6.35,6.35,0,0,1,1.41,2.61,6,6,0,0,1,.09,2.6,8.3,8.3,0,0,1-.9,2.52,17.79,17.79,0,0,1-1.62,2.37,23.92,23.92,0,0,1-2,2.15c-.72.67-1.41,1.29-2.09,1.87a33.79,33.79,0,0,1-5.33,3.7,32.29,32.29,0,0,1-4.91,2.28l-3.61-4.3a21.38,21.38,0,0,0,5.39-1.87,27.2,27.2,0,0,0,5.4-3.56,21.59,21.59,0,0,0,2.38-2.27,8.67,8.67,0,0,0,1.18-1.7,2.32,2.32,0,0,0,.27-1.19,1.34,1.34,0,0,0-.28-.74,1.21,1.21,0,0,0-1-.42,4.32,4.32,0,0,0-1.55.34,15.77,15.77,0,0,0-2,.88c-.72.37-1.48.77-2.27,1.21l-2.45,1.3c-.85.45-1.7.85-2.56,1.21a22.37,22.37,0,0,1-2.54.86,10,10,0,0,1-2.43.32,5.76,5.76,0,0,1-2.2-.45,5,5,0,0,1-1.89-1.45,6.12,6.12,0,0,1-1.31-2.41,6,6,0,0,1-.1-2.41,8.28,8.28,0,0,1,.81-2.38,14.06,14.06,0,0,1,1.49-2.24,22.37,22.37,0,0,1,1.85-2.05q1-1,2-1.77c.7-.59,1.44-1.15,2.23-1.7s1.62-1.06,2.44-1.53,1.63-.91,2.43-1.3,1.58-.75,2.3-1L147,349"></path><path class="watermark-path" d="M186.76,337.57l-10.6-12.63,3.92,18.24-4.66,3.91-17.27-7,10.6,12.63-4.86,4.07-15.09-18,6.59-5.54,18.69,7.52-4.15-19.71,6.57-5.52,15.09,18-4.83,4.05"></path><path class="watermark-path" d="M208.84,313.24l-10,8.42,1.16,4.82L194.56,331l-5.68-25.89,5.42-4.55,24.51,10.09-5.42,4.55-4.55-2m-11.23,3.45,6.57-5.52-8.83-3.87,2.26,9.39"></path><path class="watermark-path" d="M227.49,281.38c-.48.12-1.09.31-1.82.57a24.37,24.37,0,0,0-2.4,1,26.11,26.11,0,0,0-2.7,1.47,20.72,20.72,0,0,0-2.71,1.94c-.7.59-1.28,1.11-1.74,1.57a13.39,13.39,0,0,0-1.1,1.22,4.29,4.29,0,0,0-.59.91,2.48,2.48,0,0,0-.22.65,1.16,1.16,0,0,0,0,.47,1.83,1.83,0,0,0,.18.29,1.15,1.15,0,0,0,1,.37,5.54,5.54,0,0,0,1.51-.38q.87-.34,2-.9l2.26-1.18q1.2-.64,2.49-1.29c.87-.44,1.73-.83,2.59-1.17a18.94,18.94,0,0,1,2.6-.81,9.27,9.27,0,0,1,2.46-.29,6.08,6.08,0,0,1,2.24.49,5.09,5.09,0,0,1,1.89,1.46,6.47,6.47,0,0,1,1.41,2.61,6.07,6.07,0,0,1,.09,2.61,8.3,8.3,0,0,1-.9,2.52,16.32,16.32,0,0,1-1.63,2.36,21.41,21.41,0,0,1-2,2.16c-.72.67-1.41,1.29-2.1,1.86a33.36,33.36,0,0,1-5.32,3.71,31.92,31.92,0,0,1-4.92,2.28l-3.6-4.3a21.38,21.38,0,0,0,5.39-1.87,27.2,27.2,0,0,0,5.4-3.56,21.59,21.59,0,0,0,2.38-2.27,8.67,8.67,0,0,0,1.18-1.7A2.32,2.32,0,0,0,231,293a1.34,1.34,0,0,0-.28-.74,1.21,1.21,0,0,0-1-.42,4.32,4.32,0,0,0-1.55.34,16.54,16.54,0,0,0-2,.88c-.71.37-1.47.77-2.26,1.21l-2.46,1.3c-.84.44-1.7.85-2.55,1.21a24.53,24.53,0,0,1-2.54.86A10,10,0,0,1,214,298a5.76,5.76,0,0,1-2.2-.45,5,5,0,0,1-1.89-1.45,6.12,6.12,0,0,1-1.31-2.41,5.78,5.78,0,0,1-.1-2.41,8,8,0,0,1,.81-2.38,14.61,14.61,0,0,1,1.49-2.25,22.26,22.26,0,0,1,1.85-2q1-1,2-1.77c.7-.59,1.44-1.15,2.23-1.7s1.62-1.06,2.44-1.53,1.63-.91,2.43-1.31,1.58-.74,2.3-1l3.5,4.16"></path><path class="watermark-path" d="M261.64,274.74l-6.29-7.5L243,277.61l6.3,7.5-4.86,4.07-15.09-18,4.85-4.08,5.49,6.55L252,263.3l-5.49-6.55,4.86-4.07,15.09,18-4.86,4.08"></path><path class="watermark-path" d="M272.18,265.9l-15.09-18,4.86-4.08,15.09,18-4.86,4.08"></path><path class="watermark-path" d="M299.65,242.85l-22.51-2.18L287.51,253l-4.85,4.08-15.1-18,5.28-4.43,22.56,2.22L285,224.5l4.83-4.06,15.09,18-5.26,4.42"></path><path class="watermark-path" d="M306.68,205.52a31.88,31.88,0,0,1,5.29-3.66,34.48,34.48,0,0,1,5.14-2.35l3.69,4.39a20.77,20.77,0,0,0-2.37.61,20.47,20.47,0,0,0-2.61,1,25.12,25.12,0,0,0-2.76,1.49,23.9,23.9,0,0,0-2.8,2,20.42,20.42,0,0,0-2.8,2.77,12.77,12.77,0,0,0-1.64,2.52,7,7,0,0,0-.68,2.24,6,6,0,0,0,.66,3.64,8.16,8.16,0,0,0,.94,1.38,9.12,9.12,0,0,0,1.08,1.07,6.39,6.39,0,0,0,1.47.91,6.73,6.73,0,0,0,1.88.48,6.54,6.54,0,0,0,2.28-.18,11.67,11.67,0,0,0,2.74-1.07,19.38,19.38,0,0,0,3.18-2.22c.57-.48,1.06-.92,1.46-1.31a14.57,14.57,0,0,0,1-1.13,11.46,11.46,0,0,0,.81-1.05l.74-1.09-1.82-2.17-5.45,4.57-3.31-3.94,10.31-8.65,7.71,9.19a29,29,0,0,1-1.67,2.43q-1,1.26-2.1,2.52c-.74.84-1.5,1.65-2.3,2.44s-1.58,1.5-2.33,2.14a31,31,0,0,1-3.59,2.61,22.55,22.55,0,0,1-3.64,1.83,15.64,15.64,0,0,1-3.63.89,10.72,10.72,0,0,1-3.49-.15,10.45,10.45,0,0,1-3.28-1.33,12.54,12.54,0,0,1-3-2.67,12,12,0,0,1-2.08-3.44,10.45,10.45,0,0,1-.71-3.5,11.14,11.14,0,0,1,.51-3.51,15.72,15.72,0,0,1,1.56-3.43,21.62,21.62,0,0,1,2.42-3.28,30.3,30.3,0,0,1,3.15-3"></path><path class="watermark-path" d="M336.91,211.59l-15.1-18,4.86-4.08,11.79,14,13.13-11,3.31,3.94-18,15.1"></path><path class="watermark-path" d="M374.54,164.71a12.28,12.28,0,0,1,2.59,4.81,10.44,10.44,0,0,1,0,5,14.62,14.62,0,0,1-2.33,5,25.55,25.55,0,0,1-4.56,4.85,26.07,26.07,0,0,1-5.6,3.67,14.79,14.79,0,0,1-5.38,1.43,10.43,10.43,0,0,1-4.94-.89,13.24,13.24,0,0,1-6.87-8.18,10.48,10.48,0,0,1,0-5,14.51,14.51,0,0,1,2.36-5,25.23,25.23,0,0,1,4.57-4.89,25,25,0,0,1,5.59-3.64,14.45,14.45,0,0,1,5.35-1.43,10.31,10.31,0,0,1,4.93.92,12.22,12.22,0,0,1,4.28,3.38m-4.91,4.11a8.36,8.36,0,0,0-2-1.72,5.5,5.5,0,0,0-2.65-.85,7.72,7.72,0,0,0-3.32.57,14.49,14.49,0,0,0-4,2.52,16.72,16.72,0,0,0-2.38,2.4,10.15,10.15,0,0,0-1.39,2.24,6.71,6.71,0,0,0-.56,2.1,5.69,5.69,0,0,0,.1,1.9,6.21,6.21,0,0,0,.61,1.69,9.85,9.85,0,0,0,1,1.44,10.48,10.48,0,0,0,1.26,1.23,6.67,6.67,0,0,0,1.57.92,6.1,6.1,0,0,0,1.85.41,6.8,6.8,0,0,0,2.15-.2,11.06,11.06,0,0,0,2.45-1,17.67,17.67,0,0,0,2.77-1.94,14.39,14.39,0,0,0,3.18-3.52,7.74,7.74,0,0,0,1.14-3.17,5.54,5.54,0,0,0-.37-2.74,8.52,8.52,0,0,0-1.36-2.3"></path><path class="watermark-path" d="M382.66,141.76A32.3,32.3,0,0,1,388,138.1a34.12,34.12,0,0,1,5.15-2.35l3.69,4.4a19.62,19.62,0,0,0-2.37.6,22.08,22.08,0,0,0-2.61,1,26,26,0,0,0-2.77,1.49,23.9,23.9,0,0,0-2.8,2,21,21,0,0,0-2.8,2.78,13.19,13.19,0,0,0-1.64,2.51,7.29,7.29,0,0,0-.68,2.24,6.36,6.36,0,0,0,.06,2,5.8,5.8,0,0,0,.61,1.68,8.12,8.12,0,0,0,.93,1.38,9.16,9.16,0,0,0,1.08,1.08,6.56,6.56,0,0,0,1.48.9,6,6,0,0,0,1.87.48,6.76,6.76,0,0,0,2.28-.17,12,12,0,0,0,2.74-1.08,18.57,18.57,0,0,0,3.18-2.22c.58-.48,1.06-.92,1.46-1.31s.75-.77,1.05-1.12.57-.72.81-1.06l.73-1.09-1.82-2.17-5.45,4.57-3.3-3.94,10.3-8.65,7.71,9.19a29,29,0,0,1-1.67,2.43q-1,1.26-2.1,2.52c-.73.84-1.5,1.66-2.3,2.44s-1.57,1.5-2.33,2.14a31,31,0,0,1-3.59,2.61,22.15,22.15,0,0,1-3.64,1.83,15.56,15.56,0,0,1-3.62.89,11,11,0,0,1-3.49-.14,10.84,10.84,0,0,1-3.28-1.33,12.82,12.82,0,0,1-3-2.68,12.12,12.12,0,0,1-2.08-3.43A10.71,10.71,0,0,1,375,155a11.18,11.18,0,0,1,.51-3.51,15.51,15.51,0,0,1,1.57-3.43,21.44,21.44,0,0,1,2.42-3.28,30.19,30.19,0,0,1,3.14-3"></path><path class="watermark-path" d="M428.63,119.31a12.26,12.26,0,0,1,2.59,4.82,10.44,10.44,0,0,1,0,5,14.53,14.53,0,0,1-2.34,5,25.29,25.29,0,0,1-4.56,4.86,26,26,0,0,1-5.59,3.67,14.84,14.84,0,0,1-5.38,1.43,10.61,10.61,0,0,1-4.95-.89,12.15,12.15,0,0,1-4.3-3.37,12,12,0,0,1-2.56-4.81,10.48,10.48,0,0,1,0-5,14.39,14.39,0,0,1,2.35-5,27.89,27.89,0,0,1,10.16-8.53,14.49,14.49,0,0,1,5.36-1.43,10.27,10.27,0,0,1,4.92.92,12.21,12.21,0,0,1,4.28,3.37m-4.91,4.12a8.17,8.17,0,0,0-2-1.72,5.58,5.58,0,0,0-2.65-.86,7.86,7.86,0,0,0-3.31.58,14.49,14.49,0,0,0-4,2.52,16.21,16.21,0,0,0-2.38,2.4,9.85,9.85,0,0,0-1.4,2.24,7,7,0,0,0-.56,2.1,6,6,0,0,0,.1,1.9,6.23,6.23,0,0,0,.62,1.69,8.49,8.49,0,0,0,1,1.44,9.18,9.18,0,0,0,1.26,1.23,6.67,6.67,0,0,0,1.57.92,6,6,0,0,0,1.84.41,6.86,6.86,0,0,0,2.16-.2,11.26,11.26,0,0,0,2.45-1,17.62,17.62,0,0,0,2.76-1.94,14.67,14.67,0,0,0,3.19-3.52,7.71,7.71,0,0,0,1.13-3.17,5.53,5.53,0,0,0-.36-2.74,8.55,8.55,0,0,0-1.37-2.3"></path></g><rect data-element-id="element-id-91990" stroke-width="2" fill="transparent" class="invisible-element-box grouping-element" x="115" y="286" width="320" height="69" data-element-name="isPrimaryText"></rect><rect data-element-id="element-id-87791" stroke-width="2" fill="transparent" class="invisible-element-box grouping-element" x="208" y="115" width="135" height="139" data-element-name="isIcon"></rect><rect data-element-id="element-id-78486" stroke-width="2" fill="transparent" class="invisible-element-box individual-element" x="208" y="115" width="135" height="139"></rect><rect data-element-id="element-id-59045" stroke-width="2" fill="transparent" class="invisible-element-box individual-element" x="170" y="286" width="77" height="69"></rect><rect data-element-id="element-id-83562" stroke-width="2" fill="transparent" class="invisible-element-box individual-element" x="318" y="286" width="62" height="69"></rect><rect data-element-id="element-id-97556" stroke-width="2" fill="transparent" class="invisible-element-box individual-element" x="259" y="287" width="47" height="68"></rect><rect data-element-id="element-id-43929" stroke-width="2" fill="transparent" class="invisible-element-box individual-element" x="115" y="287" width="44" height="68"></rect><rect data-element-id="element-id-87441" stroke-width="2" fill="transparent" class="invisible-element-box individual-element" x="392" y="287" width="43" height="68"></rect></svg> </div> -->
+
+      
+      
+      <script>
+      
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+      
+      // Whenever the user explicitly chooses light mode
+      localStorage.theme = 'light'
+      
+      // Whenever the user explicitly chooses dark mode
+      localStorage.theme = 'dark'
+      
+      // Whenever the user explicitly chooses to respect the OS preference
+      localStorage.removeItem('theme') </script>
+
+
+</body>
+</html>
